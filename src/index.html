@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="main.js" async></script>
 </head>
 
@@ -15,22 +17,49 @@
     <div class="container mx-auto ">
         <div class="flex flex-row justify-center ">
             <div class="max-w-xs m-6 rounded overflow-hidden shadow-lg ">
+                <div class="flex justify-end  ">
+                    <button
+                        class="absolute -mx-4 my-4 bg-white hover:bg-grey-lightest text-grey-darkest font-semibold py-2 px-4 border border-grey-light rounded shadow">
+                        Travel Tour
+                    </button>
+                </div>
+
                 <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
                 <div class="px-8 py-4">
-                    <div class="font-bold text-grey mb-2">14 OCT, 2017</div>
+                    <div class="flex flex-row">
+                        <div class="font-bold text-grey mb-2">14 OCT, 2017 -</div>
+                        <div class="text-blue-dark ml-1"> BY ADMIN </div>
+                    </div>
+
                     <div class="font-bold text-xl mb-2">Skip The Hills and bag these delightful summer</div>
                     <p class="text-grey-darker text-sm">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     </p>
                 </div>
             </div>
-            <div class="max-w-xs m-6 rounded overflow-hidden border border-blue-dark">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-2">Skip The Hills and bag these delightful summer</div>
-                    <p class="text-grey-darker text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    </p>
+            <div
+                class="max-w-xs m-6 rounded overflow-hidden border border-solid border-t-8 border-l-8 border-r-8 border-b-8 border-blue-dark">
+                <div class="flex flex-col">
+                    <div class="px-10 py-4">
+                        <i class="fas fa-quote-left text-teal text-2xl mb-5"></i>
+                        <p class="text-grey-darker text-sm">
+                            Howard Robard Hughes Jr. (Humble, 24 de dezembro de 1905 – 5 de abril de 1976) foi um
+                            aviador, engenheiro aeronáutico, industrial, produtor de cinema, diretor cinematográfico e
+                            um dos homens mais ricos do mundo. Ficou famoso ao quebrar o recorde mundial de velocidade
+                            em um avião, construir aviões, produzir o filme Hell's Angels e por se tornar dono de uma
+                            das maiores empresas aéreas norte-americana, a TWA.
+                        </p>
+                    </div>
+                    <div class="flex m-6 items-center ">
+                        <img class="w-10 h-10 rounded-full mr-4" src="https://tailwindcss.com/img/jonathan.jpg"
+                            alt="Avatar of Jonathan Reinink">
+                        <div class="text-sm">
+                            <p class="text-black leading-none">Howard Hughes</p>
+                            <p class="text-grey-dark">Newyork, USA</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
